@@ -1,0 +1,133 @@
+body {
+  width: 1920px;
+  background-color: #FFF;
+}
+
+ul {
+  gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #3F3F3F;
+}
+
+.header {
+  display: flex;
+  margin-right: 275px;
+  margin-left: 275px;
+}
+
+.nav {
+  display: flex;
+}
+
+.phone {
+  color: #0D0E0F;
+}
+
+main {
+  margin-top: 10px;
+}
+
+.dealer {
+  position: relative;
+  width: 1920px;
+  height: 800px;
+  background-image: url("../img/dealer.jpg");
+}
+
+.neva {
+  border: 2px solid #FFF;
+  position: absolute;
+  margin-top: 60px;
+  margin-right: 335px;
+  margin-left: 335px;
+  margin-bottom: 60px;
+  width: 1250px;
+  height: 680px;
+}
+.neva__img {
+  margin-left: -51px;
+  margin-top: 29px;
+  position: absolute;
+  border-style: none;
+}
+.neva__title {
+  color: #FFF;
+  margin-top: 29px;
+  margin-left: 73px;
+}
+.neva__text {
+  color: #FFF;
+  width: 463px;
+  margin-left: 73px;
+}
+
+.wrapper {
+  margin-left: 270px;
+  display: flex;
+  gap: 19px;
+  margin-top: 60px;
+  width: 1370px;
+  height: 230px;
+}
+
+.options {
+  width: 212px;
+  height: 230px;
+  border-radius: 10px;
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.options__title {
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.wrapper-about {
+  display: flex;
+  margin-left: 270px;
+  gap: 20px;
+}
+
+.about__title {
+  text-align: center;
+  color: #0D0E0F;
+}
+
+.year {
+  width: 443px;
+  height: 161px;
+}
+.year__title {
+  color: #0032A0;
+}
+.year__text {
+  color: #000;
+}
+
+.info-wrapper {
+  margin-left: 270px;
+  gap: 20px;
+  display: flex;
+  align-items: flex-end;
+  width: 1370px;
+}
+
+.center-photo {
+  margin-top: 32px;
+}
+
+.info__text {
+  color: #000;
+}/*# sourceMappingURL=styles.css.map */
