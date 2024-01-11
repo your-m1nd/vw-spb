@@ -1,4 +1,6 @@
+@import url("https://fonts.cdnfonts.com/css/vw-head");
 body {
+  font-family: "VW Head", sans-serif;
   width: 1920px;
   background-color: #FFF;
 }

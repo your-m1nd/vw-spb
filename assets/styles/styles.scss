@@ -1,7 +1,9 @@
 @import './var';
+@import './fonts';
 
 //Общие стили
 body {
+    font-family: $font-VW-Head;
     width: 1920px;
     background-color: $background-color;
 }
