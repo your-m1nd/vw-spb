@@ -108,8 +108,105 @@ main {
   text-align: center;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons__new, .buttons__old {
+  background-color: #0032A0;
+  border-radius: 10px;
+  width: 337px;
+  height: 70px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+}
+.buttons__old {
+  background-color: #F9F9F9;
+  color: #000;
+  border: none;
+}
+
+.lightweight-cars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.arrows {
+  gap: 5px;
+  display: flex;
+}
+.arrows__left--img {
+  transform: rotate(180deg);
+}
+
+.choose {
+  margin-bottom: 41px;
+  margin-left: 175px;
+}
+
 .models-container {
   display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.models__icon--vw {
+  height: 29px;
+  width: 34px;
+  position: relative;
+  right: 65px;
+  bottom: 80px;
+}
+.models__icon--audi {
+  position: relative;
+  right: 65px;
+  bottom: 67px;
+}
+.models__icon--toyota {
+  position: relative;
+  right: 65px;
+  bottom: 83px;
+}
+.models__icon--jetta {
+  position: relative;
+  right: 50px;
+  bottom: 60px;
+}
+.models__icon--kia {
+  position: relative;
+  right: 50px;
+  bottom: 70px;
+}
+.models__arrow {
+  margin-left: 10px;
+}
+.models__link {
+  text-decoration: underline;
+  color: #0032A0;
+}
+
+.catalog {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.catalog__button {
+  width: 356px;
+  background-color: #0032A0;
+  border-radius: 10px;
+  padding: 13px 25px 15px 25px;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .wrapper-about {

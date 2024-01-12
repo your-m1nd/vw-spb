@@ -123,17 +123,116 @@ main {
     }
 }
 
-.arrows {
-    &__left {
-        //transform: rotate(180deg); 
+.buttons { 
+    display: flex;
+    justify-content: center;
+
+    &__new, &__old {
+        background-color: $dark-blue-color;
+        border-radius: 10px;
+        width: 337px;
+        height: 70px;
+        color: $background-color;
+        font-size: 24px;
+        font-weight: 700;
     }
-  
+
+    &__old {
+        background-color: $white-color;
+        color: $black-text-color;
+        border: none;
+    }
 }
 
+.lightweight-cars { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+.arrows {
+    gap: 5px;
+    display: flex;
+
+    &__left--img {
+        transform: rotate(180deg); 
+    }
+}
+.choose {
+    margin-bottom: 41px;
+    margin-left: 175px;
+}
 .models-container {
     display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
+.models {
+    
+    &__icon--vw {
+        height: 29px;
+        width: 34px;
+        position: relative;
+        right: 65px;
+        bottom: 80px;
+    }
+
+    &__icon--audi {
+        position: relative;
+        right: 65px;
+        bottom: 67px;
+    }
+
+    &__icon--toyota {
+        position: relative;
+        right: 65px;
+        bottom: 83px;
+    }
+
+    &__icon--jetta {
+        position: relative;
+        right: 50px;
+        bottom: 60px;
+    }
+
+    &__icon--kia {
+        position: relative;
+        right: 50px;
+        bottom: 70px;
+    }
+
+    &__arrow {
+        margin-left: 10px;
+    }
+
+    &__link {
+        text-decoration: underline;
+        color: $dark-blue-color;
+    }
+}
+.catalog {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+
+    &__button {
+        width: 356px;
+        background-color: $dark-blue-color;
+        border-radius: 10px;
+        padding: 13px 25px 15px 25px;
+        border: none;
+        color: $background-color;
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
 
 //Блок "О компании"
 .wrapper-about {
