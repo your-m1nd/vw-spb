@@ -16,7 +16,7 @@
         <img src="./assets/img/header__logo.png" alt="logo" />
       </div>
       <nav class="nav">
-        <ul>
+        <ul class="list">
           <li><a href="#">Каталог</a></li>
           <li><a href="#">Сервис</a></li>
           <li><a href="#">Услуги</a></li>
@@ -86,7 +86,7 @@
           </div>
           </div>
           <div class="choose">
-            <select name="select">
+            <select class="select-choose" name="select">
               <option value="value1" selected>Выберите модель</option>
               <option value="value2">Volkswagen TERAMONT</option>
               <option value="value3">Audi Q3</option>
@@ -143,11 +143,49 @@
         </div>
        </section>
 <!---"Онлайн-сервисы"--->
-
+<section class="online">
+  <h2 class="online__title">Онлайн-сервисы</h2>
+  <div class="online-container">
+    <div class="online-services">
+      <div class="test-drive">
+        <img class="test-drive__icon" src="./assets/img/icon-drive.svg" alt="test-drive icon">
+        <p class="test-drive__title">Тест-драйв</p>
+      </div>
+      <div class="test-drive">
+        <img class="test-drive__icon" src="./assets/img/icon-request.svg" alt="request icon">
+        <p class="test-drive__title">Запрос на подбор авто</p>
+      </div>
+      <div class="test-drive">
+        <img class="test-drive__icon" src="./assets/img/icon-credit.svg" alt="credit icon">
+        <p class="test-drive__title">Расчет кредита</h3>
+      </div>
+      <div class="test-drive">
+        <img class="test-drive__icon" src="./assets/img/icon-sale.svg" alt="sale icon">
+        <p class="test-drive__title">Спецпредложения</p>
+      </div>
+      <div class="test-drive">
+        <img class="test-drive__icon" src="./assets/img/icon-register.svg" alt="register icon">
+        <p class="test-drive__title">Запись на сервис</p>
+      </div>
+    </div>
+    <div class="form">
+      <form class="form" name="form" action="/" method="post" >
+        <h3 class="form__title">Оставьте заявку</h3>
+        <p class="form__text">и менеджер свяжется с Вами <br> в ближайшее время
+        </p>
+        <input class="form__name" type="text" id="name" name="name" required placeholder="Имя"/>
+        <input class="form__tel" type="text" id="phone" name="phone" required="" value="" placeholder="+7 (9) ___ __ __"/>
+        <button class="form__submit" type="submit">Оставить заявку</button>
+      </form>
+    </div>
+  </div>
+</section>
 <!---"Запчасти"--->
 <section class="parts">
   <div class="parts-container">
+    <div class="title-container">
   <h2 class="parts__title">Запчасти</h2>
+</div>
   <div class="arrows">
     <button class="arrows__left">
       <img class="arrows__left--img" src="./assets/img/arrow.svg" alt="left arrow">
@@ -178,8 +216,133 @@
     <button class="catalog__button">Показать весь каталог</button>
   </div>
 </section>
+<!---"Сервис"-->
+<section class="service">
+  <h2 class="service__title">Сервис</h2>
+  <div class="service-container"></class>
+  <div class="form">
+    <form class="form" name="form" action="/" method="post" >
+      <h3 class="form__title">Оставьте заявку</h3>
+      <p class="form__text">и менеджер свяжется с Вами <br> в ближайшее время
+      </p>
+      <input class="form__name" type="text" id="name" name="name" required placeholder="Имя"/>
+      <input class="form__tel" type="text" id="phone" name="phone" required="" value="" placeholder="+7 (9) ___ __ __"/>
+      <select class="select-form" name="select">
+        <option value="value1" selected>Модель автомобиля</option>
+        <option value="value2">Volkswagen TERAMONT</option>
+        <option value="value3">Audi Q3</option>
+        <option value="value3">Toyota RAV4</option>
+        <option value="value3">JETTA VA3</option>
+        <option value="value3">KIA K3</option>
+      </select>
+      <button class="form__submit" type="submit">Оставить заявку</button>
+    </form>
+  </div>
+    <div class="maintenance">
+      <div class="care">
+        <img class="care__img" src="./assets/img/icon-maintenance.svg" alt="maintenance icon">
+        <p class="care__title">Техническое обслуживание</p>
+        <a class="models__link">Подробнее</a>
+        <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+      </div>
+      <div class="care">
+        <img class="care__img" src="./assets/img/icon-electric.svg" alt="electric icon">
+        <p class="care__title">Ремонт электрооборудования</p>
+        <a class="models__link">Подробнее</a>
+        <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+      </div>
+      <div class="care">
+        <img class="care__img" src="./assets/img/icon-engine.svg" alt="engine icon">
+        <p class="care__title">Ремонт двигателя</p>
+        <a class="models__link">Подробнее</a>
+        <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+      </div>
+    </div>
+    <div class="metalwork">
+      <div class="repair">
+        <img class="repair__img" src="./assets/img/icon-metalwork.svg" alt="metalwork icon">
+        <p class="repair__title">Слесарный ремонт</p>
+        <a class="models__link">Подробнее</a>
+        <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+      </div>
+      <div class="repair">
+        <img class="repair__img" src="./assets/img/icon-polish.svg" alt="polish icon">
+        <p class="repair__title">Полировка деталей кузова</p>
+        <a class="models__link">Подробнее</a>
+        <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+      </div>
+      <div class="repair">
+        <img class="repair__img" src="./assets/img/icon-repair.svg" alt="metalwork icon">
+        <p class="repair__title">Ремонт деталей кузова</p>
+        <a class="models__link">Подробнее</a>
+        <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+      </div>
+    </div>
+  </div>
+  <div class="advantages-container">
+    <section class="comfort">
+      <h3 class="comfort__title">Удобство и комфорт</h3>
+      <ul class="advantages">
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Поддержка 24/7</p>
+        </li>
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Обеспечение мобильности</p>
+        </li>
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Комфортные условия в сервисных центрах</p>
+        </li>
+      </ul>
+    </section>
+    <section class="quality">
+      <h3 class="comfort__title">Профессионализм и качество</h3>
+      <ul class="advantages">
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Соблюдение высоких стандартов качества</p>
+        </li>
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Проведение работ с использованием специального оборудования</p>
+        </li>
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Использование только оригинальных деталей</p>
+        </li>
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Интерактивная приёмка автомобиля с планшетом</p>
+        </li>
+      </ul>
+    </section>
+    <section class="honesty">
+      <h3 class="comfort__title">Прозрачность и честность</h3>
+      <ul class="advantages">
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Подробные сметы расходов без скрытых платежей</p>
+        </li>
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Подробное описание проделанных работ</p>
+        </li>
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Предварительное уведомление о необходимых дополнительных ремонтах</p>
+        </li>
+        <li class="advantages__note">
+          <img class="line" src="./assets/img/line.svg" alt="line icon">
+          <p class="paragraph">Команда экспертов готова разъяснить любые вопросы о стоимости и характере ремонтных работ</p>
+        </li>
+      </ul>
+    </section>
+  </div>
 
-<!---Блок "О компании"--->
+</section>
+<!---"О компании"--->
       <section class="about">
         <h2 class="about__title">О компании</h2>
         <div class="wrapper-about">
