@@ -33,6 +33,8 @@ a {
 
 .phone {
   color: #0D0E0F;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 main {
@@ -63,11 +65,15 @@ main {
   border-style: none;
 }
 .neva__title {
+  font-weight: 700;
+  font-size: 48px;
   color: #FFF;
   margin-top: 29px;
   margin-left: 73px;
 }
 .neva__text {
+  font-weight: 400;
+  font-size: 24px;
   color: #FFF;
   width: 463px;
   margin-left: 73px;
@@ -92,8 +98,18 @@ main {
   justify-content: space-between;
 }
 .options__title {
+  font-weight: 700;
+  font-size: 24px;
   margin-left: 16px;
   margin-top: 16px;
+}
+
+.stock__title {
+  text-align: center;
+}
+
+.models-container {
+  display: flex;
 }
 
 .wrapper-about {

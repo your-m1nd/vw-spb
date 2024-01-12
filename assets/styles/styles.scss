@@ -38,6 +38,8 @@ a {
 
 .phone {
     color: $black-color;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 //Основной контент
@@ -70,19 +72,23 @@ main {
     }
 
     &__title {
+        font-weight: 700;
+        font-size: 48px;
         color: $background-color;
         margin-top: 29px;
         margin-left: 73px;
     }
 
     &__text {
+        font-weight: 400;
+        font-size: 24px;
         color: $background-color;
         width: 463px;
         margin-left: 73px;
     }
 }
 
-//Услуги
+//Блок "Услуги"
 .wrapper {
     margin-left: 270px;
     display: flex;
@@ -101,13 +107,32 @@ main {
     justify-content: space-between;
 
     &__title {
+        font-weight: 700;
+        font-size: 24px;
         margin-left: 16px;
         margin-top: 16px;
     }
 }
 
 
+//Блок "Автомобили в наличии"
 
+.stock {
+    &__title {
+        text-align: center;
+    }
+}
+
+.arrows {
+    &__left {
+        //transform: rotate(180deg); 
+    }
+  
+}
+
+.models-container {
+    display: flex;
+}
 
 
 //Блок "О компании"

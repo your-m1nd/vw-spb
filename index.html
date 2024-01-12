@@ -10,6 +10,7 @@
     <title>VW SPB</title>
   </head>
   <body>
+    <!---Header--->
     <header class="header">
       <div class="header__logo">
         <img src="./assets/img/header__logo.png" alt="logo" />
@@ -28,6 +29,7 @@
         </ul>
       </nav>
     </header>
+    <!---конец блока Header--->
     <main>
         <div class="dealer">
       <div class="neva">
@@ -38,6 +40,7 @@
         </p>
       </div>
     </div>
+    <!---Блок "Услуги"--->
       <section class="wrapper">
         <div class="options">
           <h3 class="options__title">Легковые автомобили</h3>
@@ -64,9 +67,84 @@
           <img class="options__img" src="./assets/img/assurance.png" />
         </div>
       </section>
+       <!---конец блока "Услуги"--->
+       <!---Блок "Автомобили в наличии"--->
+       <section class="stock">
+        <h2 class="stock__title">Автомобили в наличии</h2>
+        <div class="buttons">
+          <button class="buttons__new">Новые авто</button>
+          <button class="buttons__old">Авто с пробегом</button>
+        </div>
+        <div class="lightweight-cars">
+          <h2 class="lightweight-cars__title">Легковые автомобили</h2>
+          <div class="arrows">
+            <button class="arrows__left">
+              <img class="arrows__left" src="./assets/img/arrow.svg" alt="left arrow">
+            </button>
+            <button class="arrows__right">
+              <img class="arrows__right" src="./assets/img/arrow.svg" alt="right arrow">
+            </button>
+          </div>
+          <div class="choose">
+            <select name="select">
+              <option value="value1" selected>Выберите модель</option>
+              <option value="value2">Volkswagen Teramont</option>
+              <option value="value3">Audi Q3</option>
+              <option value="value3">Toyota Rav4</option>
+              <option value="value3">Jetta VA3</option>
+              <option value="value3">Kia k3</option>
+            </select>
+          </div>
+          <div class="models-container">
+            <div class="models">
+              <img class="models__img" src="./assets/img/vw-teramont.png" alt="vw teramont">
+              <img class="models__icon" src="./assets/img/footer__logo.png" alt="vw logo">
+              <h3 class="models__title">Volkswagen Teramont</h3>
+              <p class="models__text">от 7 010 000 ₽</p>
+              <a class="models__link">Подробнее</a>
+              <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+            </div>
+            <div class="models">
+              <img class="models__img" src="./assets/img/audi-q3.png" alt="audi q3">
+              <img class="models__icon" src="./assets/img/Audi.svg" alt="audi logo">
+              <h3 class="models__title">Audi Q3</h3>
+              <p class="models__text">от 4 700 000 ₽</p>
+              <a class="models__link">Подробнее</a>
+              <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+            </div>
+            <div class="models">
+              <img class="models__img" src="./assets/img/toyota-rav4.png" alt="toyota rav4">
+              <img class="models__icon" src="./assets/img/Toyota.svg" alt="toyota logo">
+              <h3 class="models__title">Toyota RAV4</h3>
+              <p class="models__text">от 4 700 000 ₽</p>
+              <a class="models__link">Подробнее</a>
+              <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+            </div>
+            <div class="models">
+              <img class="models__img" src="./assets/img/jetta-va3.png" alt="jetta va3">
+              <img class="models__icon" src="./assets/img/Jetta.svg" alt="jetta logo">
+              <h3 class="models__title">JETTA VA3</h3>
+              <p class="models__text">от 1 770 000 ₽</p>
+              <a class="models__link">Подробнее</a>
+              <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+            </div>
+            <div class="models">
+              <img class="models__img" src="./assets/img/kia-k3.png" alt="kia k3">
+              <img class="models__icon" src="./assets/img/KIA.svg" alt="kia logo">
+              <h3 class="models__title">KIA K3</h3>
+              <p class="models__text">от 2 891 428 ₽</p>
+              <a class="models__link">Подробнее</a>
+              <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+            </div>
+          </div>
+          <div class="catalog">
+            <button class="catalog_button">В каталог</button>
+          </div>
+        </div>
+       </section>
 
 
-
+<!---Блок "О компании"--->
       <section class="about">
         <h2 class="about__title">О компании</h2>
         <div class="wrapper-about">
@@ -104,7 +182,9 @@
     </div>
 </div>
       </section>
+      <!---конец блока--->
     </main>
+    <!---Footer--->
     <footer class="footer">
         <div class="footer__logo">
             <img class="footer__logo" src="" alt="vw logo">
