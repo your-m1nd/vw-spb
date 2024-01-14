@@ -220,7 +220,7 @@
 <section class="service">
   <h2 class="service__title">Сервис</h2>
   <div class="service-container"></class>
-  <div class="form">
+  <div class="forms">
     <form class="form" name="form" action="/" method="post" >
       <h3 class="form__title">Оставьте заявку</h3>
       <p class="form__text">и менеджер свяжется с Вами <br> в ближайшее время
@@ -241,41 +241,53 @@
     <div class="maintenance">
       <div class="care">
         <img class="care__img" src="./assets/img/icon-maintenance.svg" alt="maintenance icon">
-        <p class="care__title">Техническое обслуживание</p>
+        <div class="care-container">
+        <p class="care__title">Техническое <br> обслуживание</p>
         <a class="models__link">Подробнее</a>
         <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+      </div>
       </div>
       <div class="care">
         <img class="care__img" src="./assets/img/icon-electric.svg" alt="electric icon">
-        <p class="care__title">Ремонт электрооборудования</p>
+        <div class="care-container">
+        <p class="care__title">Ремонт <br> электрооборудования</p>
         <a class="models__link">Подробнее</a>
         <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
       </div>
+      </div>
       <div class="care">
         <img class="care__img" src="./assets/img/icon-engine.svg" alt="engine icon">
-        <p class="care__title">Ремонт двигателя</p>
+        <div class="care-container">
+        <p class="care__title">Ремонт <br> двигателя</p>
         <a class="models__link">Подробнее</a>
         <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+      </div>
       </div>
     </div>
     <div class="metalwork">
       <div class="repair">
         <img class="repair__img" src="./assets/img/icon-metalwork.svg" alt="metalwork icon">
-        <p class="repair__title">Слесарный ремонт</p>
+        <div class="repair-container">
+        <p class="repair__title">Слесарный <br> ремонт</p>
         <a class="models__link">Подробнее</a>
         <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+      </div>
       </div>
       <div class="repair">
         <img class="repair__img" src="./assets/img/icon-polish.svg" alt="polish icon">
-        <p class="repair__title">Полировка деталей кузова</p>
+        <div class="repair-container">
+        <p class="repair__title">Полировка <br> деталей кузова</p>
         <a class="models__link">Подробнее</a>
         <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
       </div>
+      </div>
       <div class="repair">
         <img class="repair__img" src="./assets/img/icon-repair.svg" alt="metalwork icon">
-        <p class="repair__title">Ремонт деталей кузова</p>
+        <div class="repair-container">
+        <p class="repair__title">Ремонт деталей <br> кузова</p>
         <a class="models__link">Подробнее</a>
         <img class="models__arrow" src="./assets/img/arrow.svg" alt="arrow">
+      </div>
       </div>
     </div>
   </div>
@@ -340,7 +352,65 @@
       </ul>
     </section>
   </div>
-
+</section>
+<!---"ОСАГО в Санкт-Петербурге"--->
+<section class="insurance">
+  <h2 class="insurance__title">ОСАГО в Санкт-Петербурге</h2>
+  <div class="osago-container">
+    <div class="osago-wrapper">
+    <div class="osago">
+      <div class="buy">
+        <img class="test-drive__icon" src="./assets/img/icon-osago.svg" alt="osago icon">
+        <p class="test-drive__title">Купить ОСАГО</p>
+      </div>
+      <div class="prolongation">
+        <img class="test-drive__icon" src="./assets/img/icon-osago2.svg" alt="osago icon">
+        <p class="prolongation__title">Продление ОСАГО</p>
+        <a class="prolongation__link">Подробнее</a>
+        <img class="models__arrow" src="./assets/img/white-arrow.svg" alt="white arrow">
+      </div>
+    </div>
+    <div class="buy-container">
+      <div class="calculator">
+        <img class="test-drive__icon" src="./assets/img/icon-calculator.svg" alt="calculator icon">
+        <p class="test-drive__title">Калькулятор ОСАГО</p>
+      </div>
+    </div>
+  </div>
+    <div class="osago-img"></div>
+    <div class="osago-options">
+      <p class="osago-options__title">Мы предлагаем:</p>
+      <div class="polis-container">
+        <div class="polis">
+          <p class="polis__text">Компания «Нева Автоком» предлагает купить ОСАГО в Санкт-Петербурге. У нас вы можете оформить электронный полис в online-режиме или получить бумажный вариант, заполнив необходимые документы в офисе.</p>
+        </div>
+        <div class="offer">
+          <ul class="advantages">
+            <li class="advantages__note">
+              <img class="line" src="./assets/img/line.svg" alt="line icon">
+              <p class="offer__paragraph">простое и быстрое оформление</p>
+            </li>
+            <li class="advantages__note">
+              <img class="line" src="./assets/img/line.svg" alt="line icon">
+              <p class="offer__paragraph">высокий уровень сервиса, внимание к Вашим пожеланиям</p>
+            </li>
+            <li class="advantages__note">
+              <img class="line" src="./assets/img/line.svg" alt="line icon">
+              <p class="offer__paragraph">удобный <a class="offer__link" href="#">онлайн-калькулятор</a> расчёта тарифов на ОСАГО</p>
+            </li>
+            <li class="advantages__note">
+              <img class="line" src="./assets/img/line.svg" alt="line icon">
+              <p class="offer__paragraph">круглосуточный доступ к полису через Ваш <a class="offer__link" href="#">«Личный кабинет».</a> После заключения договора электронный полис в формате *pdf придёт вам на электронную почту, а также будет доступен в личном кабинете на сайте Нева Автоком</p>
+            </li>
+            <li class="advantages__note">
+              <img class="line" src="./assets/img/line.svg" alt="line icon">
+              <p class="offer__paragraph">безопасную оплату в online-режиме</p>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <!---"О компании"--->
       <section class="about">
@@ -350,7 +420,7 @@
           <h2 class="year__title">В 2017 году</h2>
           <p class="year__text">
             Нева-Автоком стал первым в Санкт-Петербурге официальным автосалоном
-            Volkswagen, оформленным в концепции Digital.
+            Volkswagen, <br> оформленным в концепции Digital.
           </p>
         </div>
         <div class="year">
@@ -375,7 +445,8 @@
     </div>
     <div class="info">
         <p class="info__text">Нева-Автоком — первый и старейший официальный автосалон — дилер Volkswagen (Фольксваген) в Санкт — Петербурге. 
-            Сохраняя высокие стандарты качества обслуживания клиентов при покупке автомобиля, мы соответствуем высоким требованиям марки Volkswagen в сервисном обслуживании, гарантийной и постгарантийной поддержке.</p>
+           <br> 
+        <p class="info__text">Сохраняя высокие стандарты качества обслуживания клиентов при покупке автомобиля, мы соответствуем высоким требованиям марки Volkswagen в сервисном обслуживании, гарантийной и постгарантийной поддержке.</p>
         <img class="info__img" src="./assets/img/info__img.png" alt="info img">
     </div>
 </div>

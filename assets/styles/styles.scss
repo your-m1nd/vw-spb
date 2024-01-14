@@ -231,6 +231,7 @@ main {
     &__link {
         text-decoration: underline;
         color: $dark-blue-color;
+        @include font-size-20px-400;
     }
 }
 
@@ -280,6 +281,10 @@ main {
     padding: 20px;
     border-radius: 10px;
     background: $white-color;
+
+    &__title {
+        @include font-size-24px-400;
+    }
 }
 
 .form {
@@ -395,6 +400,8 @@ main {
 //Блок "Сервис"
 
 .service {
+    margin-top: 120px;
+
     &__title {
         text-align: center;
         font-size: 40px;
@@ -404,9 +411,10 @@ main {
 
 .service-container {
     display: flex;
+    margin-left: 275px;
 }
 
-.form {
+.forms {
     margin-right: 136px;
 }
 
@@ -425,9 +433,31 @@ main {
     margin-right: 154px;
 }
 
+.care {
+    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+
+    &__title {
+        @include font-size-24px-400;
+    }
+}
+
+.repair {
+    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+
+    &__title {
+        @include font-size-24px-400;
+    }
+}
+
 .comfort {
+
     &__title {
         text-align: center;
+        @include font-size-24px-700;
     }
 }
 
@@ -438,7 +468,10 @@ main {
 }
 
 .advantages-container {
+    margin-left: 275px;
     display: flex;
+    margin-top: 60px;
+    gap: 20px;
 }
 
 .advantages {
@@ -447,17 +480,133 @@ main {
         gap: 12px;
     }
 }
- 
+
+.paragraph {
+    @include font-size-16px-400;
+}
+
+//Блок "ОСАГО в Санкт-Петербурге"
+
+.insurance {
+    background-color: $osago-color;
+    margin-top: 60px;
+
+    &__title {
+        @include font-size-40px-700;
+        text-align: center;
+    }
+}
+
+.osago-container {
+    margin-top: 48px;
+    margin-left: 275px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.osago-wrapper {
+    margin-right: 20px;
+}
+
+.osago {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buy {
+    background-color: $background-color;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.buy-container {
+    width: 675px;
+    height: 163px;
+    margin-top: 20px;
+}
+
+.prolongation {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: $dark-blue-color;
+    box-shadow: 0px 4px 15px 0px rgba(188, 186, 186, 0.10);
+
+    &__title {
+        color: $background-color;
+        @include font-size-24px-400;
+    }
+    &__link {
+        color: $background-color;
+        @include font-size-20px-400;
+    }
+}
+
+.calculator {
+    padding: 20px;
+    background-color: $background-color;
+    border-radius: 10px;
+}
+
+.osago-img {
+    background-image: url('../img/osago.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 676px;
+    height: 346px;
+}
+
+.osago-options {
+
+    &__title {
+        @include font-size-24px-400;
+        margin-right: 400px;
+        text-align: right;
+    }
+}
+
+.polis-container {
+    gap: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+.polis {
+    width: 559px;
+
+    &__text {
+        @include font-size-24px-400;
+    }
+}
+
+.offer {
+    width: 788px;
+
+    &__paragraph {
+        @include font-size-20px-400;
+    }
+
+    &__link {
+        color: $dark-blue-color;
+        text-decoration: underline;
+    }
+}
+
 //Блок "О компании"
+
 .wrapper-about {
     display: flex;
-    margin-left: 270px;
+    margin-left: 275px;
     gap: 20px;
 }
 
 .about {
+    margin-top: 60px;
+
     &__title {
         text-align: center;
+        font-size: 40px;
+        font-weight: 700;
         color: $black-color;
 }
 }
@@ -469,14 +618,19 @@ main {
 
     &__title {
         color: $dark-blue-color;
+        font-size: 57px;
+        font-weight: 700;
     }
 
     &__text {
         color: $black-text-color;
+        @include font-size-20px-400;
+        margin-top: -35px;
     }
 }
 
 .info-wrapper {
+    margin-top: 32px;
     margin-left: 270px;
     gap: 20px;
     display: flex;
@@ -491,5 +645,6 @@ main {
 .info {
     &__text {
         color: $black-text-color;
+        @include font-size-20px-400;
     }
 }

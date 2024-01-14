@@ -206,6 +206,8 @@ main {
 .models__link {
   text-decoration: underline;
   color: #0032A0;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .catalog {
@@ -250,6 +252,10 @@ main {
   padding: 20px;
   border-radius: 10px;
   background: #F9F9F9;
+}
+.test-drive__title {
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .form {
@@ -356,6 +362,9 @@ main {
   background-image: url("../img/lamps.png");
 }
 
+.service {
+  margin-top: 120px;
+}
 .service__title {
   text-align: center;
   font-size: 40px;
@@ -364,9 +373,10 @@ main {
 
 .service-container {
   display: flex;
+  margin-left: 275px;
 }
 
-.form {
+.forms {
   margin-right: 136px;
 }
 
@@ -387,8 +397,30 @@ main {
   margin-right: 154px;
 }
 
+.care {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.care__title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.repair {
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+.repair__title {
+  font-size: 24px;
+  font-weight: 400;
+}
+
 .comfort__title {
   text-align: center;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .comfort, .quality, .honesty {
@@ -398,7 +430,10 @@ main {
 }
 
 .advantages-container {
+  margin-left: 275px;
   display: flex;
+  margin-top: 60px;
+  gap: 20px;
 }
 
 .advantages__note {
@@ -406,14 +441,127 @@ main {
   gap: 12px;
 }
 
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.insurance {
+  background-color: #FAFAFA;
+  margin-top: 60px;
+}
+.insurance__title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.osago-container {
+  margin-top: 48px;
+  margin-left: 275px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.osago-wrapper {
+  margin-right: 20px;
+}
+
+.osago {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.buy {
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.buy-container {
+  width: 675px;
+  height: 163px;
+  margin-top: 20px;
+}
+
+.prolongation {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0032A0;
+  box-shadow: 0px 4px 15px 0px rgba(188, 186, 186, 0.1);
+}
+.prolongation__title {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+}
+.prolongation__link {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.calculator {
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.osago-img {
+  background-image: url("../img/osago.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 676px;
+  height: 346px;
+}
+
+.osago-options__title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 400px;
+  text-align: right;
+}
+
+.polis-container {
+  gap: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+.polis {
+  width: 559px;
+}
+.polis__text {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.offer {
+  width: 788px;
+}
+.offer__paragraph {
+  font-size: 20px;
+  font-weight: 400;
+}
+.offer__link {
+  color: #0032A0;
+  text-decoration: underline;
+}
+
 .wrapper-about {
   display: flex;
-  margin-left: 270px;
+  margin-left: 275px;
   gap: 20px;
 }
 
+.about {
+  margin-top: 60px;
+}
 .about__title {
   text-align: center;
+  font-size: 40px;
+  font-weight: 700;
   color: #0D0E0F;
 }
 
@@ -423,12 +571,18 @@ main {
 }
 .year__title {
   color: #0032A0;
+  font-size: 57px;
+  font-weight: 700;
 }
 .year__text {
   color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -35px;
 }
 
 .info-wrapper {
+  margin-top: 32px;
   margin-left: 270px;
   gap: 20px;
   display: flex;
@@ -442,4 +596,6 @@ main {
 
 .info__text {
   color: #000;
+  font-size: 20px;
+  font-weight: 400;
 }/*# sourceMappingURL=styles.css.map */

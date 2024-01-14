@@ -3,3 +3,30 @@
     border-right: none;
     border-left: none;
 }
+
+@mixin font-size-40px-700 {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+@mixin font-size-24px-400 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+@mixin font-size-24px-700 {
+        font-size: 24px;
+        font-weight: 700;
+    
+}
+
+@mixin font-size-20px-400 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@mixin font-size-16px-400 {
+    font-size: 16px;
+    font-weight: 400;
+}
