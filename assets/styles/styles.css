@@ -157,6 +157,10 @@ main {
   gap: 5px;
   display: flex;
 }
+.arrows__left, .arrows__right {
+  background-color: #FFF;
+  border: none;
+}
 .arrows__left--img {
   transform: rotate(180deg);
 }
@@ -603,4 +607,123 @@ main {
   color: #000;
   font-size: 20px;
   font-weight: 400;
+}
+
+.footer {
+  margin-top: 60px;
+  background-color: #FFF;
+}
+
+.footer-container {
+  margin-left: 275px;
+}
+
+.footer-wrapper {
+  gap: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.connection-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.phonecall {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.social {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 110px;
+}
+
+.menu__list {
+  font-size: 20px;
+  font-weight: 400;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.connection-wrapper {
+  margin-top: 30px;
+  margin-left: 59px;
+  gap: 110px;
+}
+
+.connection {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.connection__link {
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.footer-note {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-left: 330px;
+}
+.footer-note__text {
+  width: 1200px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.search-form {
+  display: flex;
+  margin-left: 300px;
+}
+
+.search {
+  display: flex;
+}
+
+.search-form {
+  margin-bottom: 0;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+.search-form ::before {
+  background: url("../img/icon-search.svg") 50% no-repeat;
+  background-size: cover;
+  content: "";
+  height: 22px;
+  left: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  box-sizing: border-box;
+}
+
+.search-input {
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 25px;
+  color: #535353;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  width: 100%;
+  padding: 15px 40px 15px 65px;
+}
+
+.search-items {
+  width: 500px;
 }/*# sourceMappingURL=styles.css.map */

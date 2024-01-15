@@ -173,6 +173,11 @@ main {
     gap: 5px;
     display: flex;
 
+    &__left, &__right {
+        background-color: $background-color;
+        border: none;
+    }
+
     &__left--img {
         transform: rotate(180deg); 
     }
@@ -652,4 +657,128 @@ main {
         color: $black-text-color;
         @include font-size-20px-400;
     }
+}
+
+// Footer 
+
+.footer {
+    margin-top: 60px;
+    background-color: $background-color;
+}
+
+.footer-container {
+    margin-left: 275px;
+}
+
+.footer-wrapper {
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.connection-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.phonecall {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.social {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 110px;
+}
+
+.menu {
+
+    &__list {
+        @include font-size-20px-400;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.connection-wrapper {
+    margin-top: 30px;
+    margin-left: 59px;
+    gap: 110px;
+}
+
+.connection {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    
+    &__link {
+        @include font-size-20px-400;
+        text-decoration: underline;
+    }
+}
+
+.footer-note {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: 330px;
+
+    &__text {
+        width: 1200px;
+        @include font-size-16px-400;
+    }
+}
+//для поиска
+.search-form {
+    display: flex;
+    margin-left: 300px;
+}
+
+.search {
+    display: flex;
+}
+
+.search-form {
+    margin-bottom: 0;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+
+    ::before {
+        background: url('../img/icon-search.svg') 50% no-repeat;
+        background-size: cover;
+        content: '';
+        height: 22px;
+        left: 25px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 22px;
+        box-sizing: border-box;
+    }
+}
+
+.search-input {
+    background-color: $input-color;
+    border: none;
+    border-radius: 25px;
+    color: $input-background;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    width: 100%;
+    padding: 15px 40px 15px 65px;
+}
+
+.search-items {
+    width: 500px;
 }
