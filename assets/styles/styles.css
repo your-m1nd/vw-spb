@@ -609,6 +609,11 @@ main {
   font-weight: 400;
 }
 
+.map {
+  margin-top: 60px;
+  margin-left: 275px;
+}
+
 .footer {
   margin-top: 60px;
   background-color: #FFF;
