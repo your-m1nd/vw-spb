@@ -43,7 +43,6 @@ main {
 
 .dealer {
   position: relative;
-  width: 1920px;
   height: 800px;
   background-image: url("../img/dealer.jpg");
 }
@@ -312,9 +311,9 @@ main {
 
 .parts {
   margin-top: 120px;
+  margin-left: 130px;
 }
 .parts__title {
-  text-align: center;
   font-size: 40px;
   font-weight: 700;
 }

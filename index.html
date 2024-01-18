@@ -173,8 +173,8 @@
         <h3 class="form__title">Оставьте заявку</h3>
         <p class="form__text">и менеджер свяжется с Вами <br> в ближайшее время
         </p>
-        <input class="form__name" type="text" id="name" name="name" required placeholder="Имя"/>
-        <input class="form__tel" type="text" id="phone" name="phone" required="" value="" placeholder="+7 (9) ___ __ __"/>
+        <input class="form__name" type="text" id="name" name="name" required placeholder="Имя" minlength="2" maxlength="32"/>
+        <input class="form__tel" type="text" id="phone" name="phone" required="" value="" placeholder="+7 (9) ___ __ __" pattern="^\+7[1-9]{10}$"/>
         <button class="form__submit" type="submit">Оставить заявку</button>
       </form>
     </div>
@@ -225,8 +225,8 @@
       <h3 class="form__title">Оставьте заявку</h3>
       <p class="form__text">и менеджер свяжется с Вами <br> в ближайшее время
       </p>
-      <input class="form__name" type="text" id="name" name="name" required placeholder="Имя"/>
-      <input class="form__tel" type="text" id="phone" name="phone" required="" value="" placeholder="+7 (9) ___ __ __"/>
+      <input class="form__name" type="text" id="name" name="name" value required placeholder="Имя" minlength="2" maxlength="32"/>
+      <input class="form__tel" type="text" id="phone" name="phone" required="" value="" placeholder="+7 (9) ___ __ __" pattern="^\+7[1-9]{10}$"/>
       <select class="select-form" name="select">
         <option value="value1" selected>Модель автомобиля</option>
         <option value="value2">Volkswagen TERAMONT</option>
@@ -561,5 +561,6 @@
     </div>
       </div>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>
